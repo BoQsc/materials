@@ -1,12 +1,12 @@
 div {
-	border-style: solid;
-	border-width: 1px;
+	border-style: dashed;
+	border-width: 0px;
 }
 
 .flyer {
 	width: 10.5cm;
 	height: 14.8cm;
-	
+
 	border-style: solid;
 	border-width: 1px;
 
@@ -14,36 +14,106 @@ div {
 	
 }
 
+.text {
+	position: absolute;
+	
+	width: 7.8cm;
+	height: 9cm;
+	top: 0.6cm;
+	left: 2.4cm;
+	
+	margin-top: 0px;
+	padding: 0px;
+
+//	text-align: justify;
+	vertical-align: top;
+	
+	font-weight: 400;
+	font-size: 0.56cm;	
+}
+
+.contact {
+	position: absolute;
+	
+	width: 10cm;
+  height: 1.3cm;
+	top: 13.8cm;
+	left: 0.6cm;
+	
+	margin-top: 0px;
+	padding: 0px;
+
+//	text-align: justify;
+	vertical-align: bottom;
+	
+	font-weight: 100;
+	font-size: 0.40cm;
+}
+
+.title {
+	position: absolute;
+	
+	width: 1.3cm;
+  	height: 9cm;
+	top: 0.6cm;
+	left: 0.6cm;
+	
+	text-align: center;
+	
+	line-height: 1.4cm;
+	font-weight: 400;
+	font-size: 1.4cm
+}
+
 .name {
 	position: absolute;
 
-	font-size: 240%;
+	font-weight: 400;
+	font-size: 1.2cm;
 	text-align: right;
-	margin-right: 5px;
+	margin-left: 15px;
+	
+	font-family: 'Anton', sans-serif;
 }
 
 .title_line1 {
-	top: 10cm;
+	top: 9.7cm;
 }
 
 .title_line2 {
-	top: 11cm;
+	top: 10.8cm;
 }
 
 .title_line3 {
-	top: 12cm;
+	top: 11.9cm;
+}
+
+.logo_image {
+	position: absolute;
+	z-index: 0;
+  width: 3.3cm;
+	height: 3.3cm;
+	
+	left: 6.6cm;
+	top: 10cm;
+
+	opacity: 0.9;
+	
+	background-size: 3.3cm;
+	background-image: url('/assets/img/gallery/tzmlogo_color.png');
 }
 
 .background_image_container {
 	position: absolute;
 	z-index: 0;
-  width: 100%;
+  width: 10.5cm;
 	height: 5cm;
 	
-	top: 8cm;
+	top: 7.7cm;
 
 	opacity: 0.3;
 	
+	background-size: 10.5cm;
 	background-image: url('https://www.zastavki.com/pictures/originals/2013/Nature___Rivers_and_lakes_Sunset_at_the_forest_lake_043632_.jpg')
 }
 

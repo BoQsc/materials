@@ -1,0 +1,14 @@
+	<h1>Flyers</h1>
+	
+  <div class="row mb-2 flyers">
+    {% for flyer in site.pages %}
+    {% if flyer.type_flyer == true %}
+
+    <div class="col-md-6">
+		<iframe class="iframe_flyer" src="{{ flyer.url }}">
+		</iframe>
+	</div>
+
+	{% endif %}
+    {% endfor %}
+  </div>
