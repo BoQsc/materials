@@ -7,6 +7,7 @@ gallery_path: "assets/img/pexels"
 tags: [Gallery, Photo]
 bootstrap: true
 toc: true
+hide: true
 ---
 
 ## Our Mission Statement

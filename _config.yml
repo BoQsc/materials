@@ -1,8 +1,8 @@
 # site title
-title: The Zeitgeist Movement
+title: TZM Materials
 
 # site subtitle
-subtitle: Shire chapter
+subtitle: stuff
 
 # site description
 description: >- # this means to ignore newlines until "baseurl:"
@@ -59,7 +59,7 @@ excerpt_separator: "<!--more-->"
 show_posts_on_homepage: true
 
 # if true, links to events will be shown in home page
-show_events_on_homepage: true
+show_events_on_homepage: false
 
 defaults:
   - scope:

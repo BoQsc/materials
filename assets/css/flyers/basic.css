@@ -1,0 +1,49 @@
+div {
+	border-style: solid;
+	border-width: 1px;
+}
+
+.flyer {
+	width: 10.5cm;
+	height: 14.8cm;
+	
+	border-style: solid;
+	border-width: 1px;
+
+  margin-right: 5px;
+	
+}
+
+.name {
+	position: absolute;
+
+	font-size: 240%;
+	text-align: right;
+	margin-right: 5px;
+}
+
+.title_line1 {
+	top: 10cm;
+}
+
+.title_line2 {
+	top: 11cm;
+}
+
+.title_line3 {
+	top: 12cm;
+}
+
+.background_image_container {
+	position: absolute;
+	z-index: 0;
+  width: 100%;
+	height: 5cm;
+	
+	top: 8cm;
+
+	opacity: 0.3;
+	
+	background-image: url('https://www.zastavki.com/pictures/originals/2013/Nature___Rivers_and_lakes_Sunset_at_the_forest_lake_043632_.jpg')
+}
+
