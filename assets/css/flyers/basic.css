@@ -17,10 +17,10 @@ div {
 .text {
 	position: absolute;
 	
-	width: 7.8cm;
+	width: 8.25cm;
 	height: 9cm;
 	top: 0.6cm;
-	left: 2.4cm;
+	left: 1.8cm;
 	
 	margin-top: 0px;
 	padding: 0px;
@@ -37,7 +37,7 @@ div {
 	
 	width: 10cm;
   height: 1.3cm;
-	top: 13.8cm;
+	top: 13.4cm;
 	left: 0.6cm;
 	
 	margin-top: 0px;
@@ -54,9 +54,9 @@ div {
 	position: absolute;
 	
 	width: 1.3cm;
-  	height: 9cm;
+	height: 9cm;
 	top: 0.6cm;
-	left: 0.6cm;
+	left: 0.3cm;
 	
 	text-align: center;
 	
