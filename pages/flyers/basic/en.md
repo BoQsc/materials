@@ -1,6 +1,6 @@
 ---
 layout: flyers_basic
-title: flyer
+title: flyer basic en
 type_flyer: true
 
 title_line1: THE
