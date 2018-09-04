@@ -1,6 +1,6 @@
 ---
 layout: flyers_basic
-title: flyer
+title: flyer basic fi
 type_flyer: true
 
 title_line1: 
