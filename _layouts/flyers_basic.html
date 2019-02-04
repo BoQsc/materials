@@ -11,7 +11,8 @@ layout: none
 		href="{{ site.baseurl }}/assets/css/flyers/basic.css">
 	
 	<link href="https://fonts.googleapis.com/css?family=Anton" rel="stylesheet"> 
-
+	<script src="http://html2canvas.hertzen.com/dist/html2canvas.min.js"></script>
+	
 	<style>			
 		{% if page.text_font_size %}
 		.text {
@@ -47,7 +48,7 @@ layout: none
 
 <body>
 	<div class="flyer">
-		<div class="background_image_container"></div>
+		<div class="bgimage"></div>
 		<div class="logo_image"></div>
 
 		<div class="text">{{ page.text }}</div>
@@ -58,8 +59,9 @@ layout: none
 		<div class="title_line1 name">{{ page.title_line1 }}</div>
 		<div class="title_line2 name">{{ page.title_line2 }}</div>
 		<div class="title_line3 name">{{ page.title_line3 }}</div>
-		
-		
 	</div>
+
+	<script src="/assets/js/tocanvas.js"></script>
+	
 </body>
 </html>

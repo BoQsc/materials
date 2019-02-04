@@ -103,7 +103,7 @@ div {
 	background-image: url('/assets/img/gallery/tzmlogo_color.png');
 }
 
-.background_image_container {
+.bgimage {
 	position: absolute;
 	z-index: 0;
   width: 10.5cm;
@@ -114,6 +114,6 @@ div {
 	opacity: 0.3;
 	
 	background-size: 10.5cm;
-	background-image: url('https://4.bp.blogspot.com/-tNhsRPsiJso/UpLjKb7_snI/AAAAAAAAAyw/3Wkgc4gAp80/s1600/560639_482289908458875_1821094216_n+%281%29.jpg');
+	background-image: url('/assets/img/autumn-219972_1280.jpg');
 }
 
