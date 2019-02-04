@@ -7,9 +7,9 @@ title_line1: THE ZEITGEIST
 title_line2: MOVEMENT
 title_line3: 
 
-title_text: TITLE
+title_text: T I T L E
 
-title_font_size: 1.1cm
+title_font_size: 1.3cm
 title_font_weight: 500
 title_font_line: 1.253cm
 
