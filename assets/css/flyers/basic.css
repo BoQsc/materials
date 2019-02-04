@@ -100,7 +100,7 @@ div {
 	opacity: 0.9;
 	
 	background-size: 3.3cm;
-	background-image: url('/assets/img/gallery/tzmlogo_color.png');
+	background-image: url('../../img/gallery/tzmlogo_color.png');
 }
 
 .bgimage {
@@ -114,6 +114,6 @@ div {
 	opacity: 0.3;
 	
 	background-size: 10.5cm;
-	background-image: url('/assets/img/autumn-219972_1280.jpg');
+	background-image: url('../../img/autumn-219972_1280.jpg');
 }
 
