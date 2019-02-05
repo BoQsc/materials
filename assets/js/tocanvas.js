@@ -8,10 +8,14 @@ function tocanvas() {
 		console.log("img created");
 	
 		var link = document.createElement("A");
+		var eimg = document.createElement("img");
 		//var linkText = document.createTextNode("my title text");
 		link.href = img;
 		link.target = "other";
-		link.appendChild(canvas);
+		
+		eimg.id = "finalimg";
+		eimg.src = img;
+		link.appendChild(eimg);
 		//link.appendChild(linkText);
 		document.body.appendChild(link);
 	});

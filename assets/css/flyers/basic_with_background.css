@@ -1,26 +1,30 @@
+#finalimg {
+	height: 100%;
+}
+
 div {
 	border-style: dashed;
 	border-width: 0px;
 }
 
 .flyer {
-	width: 10.5cm;
-	height: 14.8cm;
+	width: 21cm;
+	height: 29.6cm;
 
 	border-style: solid;
 	border-width: 1px;
 
-  margin-right: 5px;
+  	margin-right: 10px;
 	
 }
 
 .text {
 	position: absolute;
 	
-	width: 9.8cm;
-	height: 9cm;
-	top: 3.0cm;
-	left: 0.4cm;
+	width: 19.6cm;
+	height: 18cm;
+	top: 6.0cm;
+	left: 0.8cm;
 	
 	margin-top: 0px;
 	padding: 0px;
@@ -29,16 +33,16 @@ div {
 	vertical-align: top;
 	
 	font-weight: 400;
-	font-size: 0.48cm;	
+	font-size: 0.96cm;	
 }
 
 .text2 {
 	position: absolute;
 	
-	width: 9.80cm;
-	height: 9cm;
-	top: 7.8cm;
-	left: 0.4cm;
+	width: 19.6cm;
+	height: 18cm;
+	top: 15.6cm;
+	left: 0.8cm;
 	
 	margin-top: 0px;
 	padding: 0px;
@@ -47,16 +51,16 @@ div {
 	vertical-align: top;
 	
 	font-weight: 400;
-	font-size: 0.46cm;
+	font-size: 0.92cm;
 }
 
 .contact {
 	position: absolute;
 	
-	width: 5cm;
-	height: 1.3cm;
-	top: 1.78cm;
-	left: 5.6cm;
+	width: 10cm;
+	height: 2.6cm;
+	top: 3.56cm;
+	left: 11.2cm;
 	
 	margin-top: 0px;
 	padding: 0px;
@@ -65,75 +69,76 @@ div {
 	vertical-align: bottom;
 	
 	font-weight: 100;
-	font-size: 0.37cm;
+	font-size: 0.74cm;
 }
 
 .title {
 	position: absolute;
 	
-	width: 1.3cm;
-	height: 9cm;
-	top: 0.6cm;
-	left: 0.3cm;
+	width: 2.6cm;
+	height: 18cm;
+	top: 1.2cm;
+	left: 0.6cm;
 	
 	text-align: center;
-  visibility: hidden;
+ 	visibility: hidden;
 		
-	line-height: 1.4cm;
+	line-height: 2.8cm;
 	font-weight: 400;
-	font-size: 1.4cm
+	font-size: 2.8cm
 }
 
 .name {
 	position: absolute;
 
 	font-weight: 400;
-	font-size: 1.2cm;
-	text-align: right;
-	margin-left: 14px;
+	font-size: 2.4cm;
+	text-align: left;
+	left: 0.8cm;
 	
- font-family: 'Anton', sans-serif;
+	font-family: 'Anton', sans-serif;
 }
 
 .title_line1 {
 	top: 0.0cm;
+	width: 14cm;
 }
 
 .title_line2 {
-	top: 1.2cm;
+	top: 2.4cm;
 }
 
 .title_line3 {
-	top: 11.9cm;
+	top: 23.8cm;
 }
 
 .logo_image {
 	position: absolute;
 	z-index: 0;
-  width: 10.3cm;
-	height: 3.3cm;
+	width: 20.6cm;
+	height: 6.6cm;
 	
-	left: -0.1cm;
-	top: 11.4cm;
+	left: -0.2cm;
+	top: 22.8cm;
 
 	opacity: 1.0;
 	
-	background-size: 11.3cm;
+	background-size: 22.6cm;
 	background-image: url('../../img/tzm_icons.png');
 }
 
 .background_image_container {
 	position: absolute;
 	z-index: 0;
-  width: 10.0cm;
-	height: 10.0cm;
+	width: 20.0cm;
+	height: 20.0cm;
 	
-	top: 1.7cm;
-  left: 0.2cm;
+	top: 3.4cm;
+  left: 0.4cm;
 	
 	opacity: 0.13;
 	
-	background-size: 9.99cm;
+	background-size: 19.98cm;
 	background-image: url('../../img/tzmlogo.svg');
 }
 
