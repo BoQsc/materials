@@ -3,9 +3,9 @@ layout: flyers_basic
 title: flyer basic fi
 type_flyer: true
 
-title_line1: 
-title_line2: ZEITGEIST
-title_line3: LIIKE
+title_line1: ZEITGEIST
+title_line2: LIIKE
+title_line3: 
 
 title_text: O N G E L M A
 
