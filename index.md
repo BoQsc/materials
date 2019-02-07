@@ -6,7 +6,7 @@ bootstrap: true
 postnav_title: "TZM materials"
 
 # second title
-postnav_subtitle: "stuff"
+postnav_subtitle: "flyers and other materials in different languages created with templates"
 
 # home page header image
 header_image: "/assets/img/home-bg.jpg"
