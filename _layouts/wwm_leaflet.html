@@ -1,0 +1,39 @@
+--- 
+layout: none
+
+---
+
+<html>
+<head>
+	{% include flyerhead.html %}
+	
+	<link rel="stylesheet"
+		href="{{ base }}/assets/css/flyers/basic.css">
+	
+	<link href="https://fonts.googleapis.com/css?family=Anton" rel="stylesheet"> 
+	<script src="{{ base }}/assets/vendor/html2canvas.min.js"></script>
+
+	<!--	
+	-->
+	
+	<style>			
+		iframe {
+ 			height: 21cm;
+			width: 14.84cm;
+	 		border-style: none;
+		}
+	</style>
+
+</head>
+
+<body>
+	<iframe frameborder="0" scrolling="no" class="iframe_page1" src="1.html"></iframe>
+	<iframe frameborder="0" scrolling="no" class="iframe_page2" src="2.html"></iframe>
+	<br />
+	<iframe frameborder="0" scrolling="no" class="iframe_page3" src="3.html"></iframe>
+	<iframe frameborder="0" scrolling="no" class="iframe_page4" src="4.html"></iframe>
+
+	<script src="{{ base }}/assets/js/tocanvas.js"></script>
+	
+</body>
+</html>

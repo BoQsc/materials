@@ -1,0 +1,76 @@
+div {
+	border-style: solid;
+	border-width: 0px;
+}
+
+.leaflet {
+	width: 21cm;
+	height: 29.6cm;
+
+	border-style: solid;
+	border-width: 1px;
+
+  	margin-right: 5px;
+}
+
+.title {
+	width: 19.1cm;
+	height: 3cm;
+	text-align: left;
+ 
+    top: 0.5cm;
+    left: 1.1cm;
+    font-size: 1.7cm;
+    line-height: 1.3cm;
+    font-weight: 400;
+}
+
+.title2 {
+	//font-size: 2.5cm;	
+}
+
+.logo_image {
+	top: 22.4cm;
+	width: 4.6cm;
+	height: 4.6cm;
+	left: 1.1cm;
+	top: 24.7cm;
+	opacity: 0.9;
+	background-size: 4.6cm;
+}
+
+.title_line1 {
+	top: 24.0cm;	
+	left: 5.2cm;
+}
+
+.title_line2 {
+	top: 26.4cm;	
+	left: 5.2cm;
+}
+
+.text {
+	font-size: 0.61cm;
+	left: 1.1cm;
+	height: 21cm;
+	top: 3.6cm;
+	width: 19cm;
+	text-align: justify;
+}
+
+.text2 {
+	font-size: 0.5cm;
+}
+
+.text3 {
+	font-size: 0.45cm;
+}
+
+.contact {
+	font-size: 0.6cm;
+	left: 6.2cm;
+	height: 2cm;
+	top: 27.5cm;
+	width: 8cm;
+	text-align: left;
+}

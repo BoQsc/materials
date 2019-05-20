@@ -9,6 +9,8 @@ layout: none
 	
 	<link rel="stylesheet"
 		href="{{ base }}/assets/css/flyers/basic.css">
+	<link rel="stylesheet"
+		href="{{ base }}/assets/css/leaflets/leaflet1.css">
 	
 	<link href="https://fonts.googleapis.com/css?family=Anton" rel="stylesheet"> 
 	<script src="{{ base }}/assets/vendor/html2canvas.min.js"></script>
@@ -28,11 +30,11 @@ layout: none
 		}
 		{% endif %}
 		
-		{% if page.title_font_size %}
-		.title {
-			font-weight: {{ page.title_font_weight }};
-			font-size: {{ page.title_font_size }};	
-			line-height: {{ page.title_font_line }};
+		{% if page.title2_font_size %}
+		.title2 {
+			font-weight: {{ page.title2_font_weight }};
+			font-size: {{ page.title2_font_size }};	
+			line-height: {{ page.title2_font_line }};
 		}
 		{% endif %}
 		
@@ -47,18 +49,19 @@ layout: none
 </head>
 
 <body>
-	<div class="flyer tocanvas">
-		<div class="bgimage"></div>
-		<div class="logo_image"></div>
+	<div class="leaflet tocanvas">
+		<div class="bgimage2 bgimage"></div>
+		<div class="logo_image2 logo_image"></div>
 
-		<div class="text">{{ page.text }}</div>
+		<div class="text2 text">{{ page.text }}</div>
 
-		<div class="title">{{ page.title_text }}</div>
-		<div class="contact">{{ page.contact }}</div>
+		<div class="title2 title">{{ page.title_text }}</div>
 		
-		<div class="title_line1 name">{{ page.title_line1 }}</div>
-		<div class="title_line2 name">{{ page.title_line2 }}</div>
-		<div class="title_line3 name">{{ page.title_line3 }}</div>
+		<div class="title2_line1 title_line1 name">{{ page.title_line1 }}</div>
+		<div class="title2_line2 title_line2 name">{{ page.title_line2 }}</div>
+		<div class="title2_line3 title_line3 name">{{ page.title_line3 }}</div>
+		
+		<div class="contact">{{ page.contact }}</div>
 	</div>
 
 	<script src="{{ base }}/assets/js/tocanvas.js"></script>

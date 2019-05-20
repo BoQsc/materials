@@ -1,6 +1,6 @@
 function tocanvas() {
-	html2canvas(document.querySelector(".flyer")).then(canvas => {
-		document.querySelector(".flyer").remove();
+	html2canvas(document.querySelector(".tocanvas")).then(canvas => {
+		document.querySelector(".tocanvas").remove();
 		canvas.title = "Test";
 	    //document.body.appendChild(canvas)
 		//console.log("canvas added");
