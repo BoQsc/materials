@@ -1,0 +1,145 @@
+#finalimg {
+	height: 100%;
+}
+
+div {
+	border-style: dashed;
+	border-width: 0px;
+}
+
+.banner {
+	width: 30cm;
+	height: 15cm;
+
+	border-style: solid;
+	border-width: 1px;
+
+  	margin-right: 10px;
+	
+}
+
+.text {
+	position: absolute;
+	
+	width: 19.6cm;
+	height: 18cm;
+	top: 12.0cm;
+	left: 13.8cm;
+	
+	margin-top: 0px;
+	padding: 0px;
+
+//	text-align: justify;
+	vertical-align: top;
+	
+	font-weight: 400;
+	font-size: 0.96cm;	
+}
+
+.text2 {
+	position: absolute;
+	
+	width: 19.6cm;
+	height: 18cm;
+	top: 15.6cm;
+	left: 0.8cm;
+	
+	margin-top: 0px;
+	padding: 0px;
+
+//	text-align: justify;
+	vertical-align: top;
+	
+	font-weight: 400;
+	font-size: 0.92cm;
+}
+
+.contact {
+	visibility: hidden;
+	
+	position: absolute;
+	
+	width: 10cm;
+	height: 2.6cm;
+	top: 3.56cm;
+	left: 11.2cm;
+	
+	margin-top: 0px;
+	padding: 0px;
+
+//	text-align: justify;
+	vertical-align: bottom;
+	
+	font-weight: 100;
+	font-size: 0.74cm;
+}
+
+.title {
+	position: absolute;
+	
+	width: 14.6cm;
+	height: 18cm;
+	top: 0.2cm;
+	left: 13.8cm;
+	
+	text-align: left;
+
+	line-height: 1.8cm;
+	font-weight: 400;
+	font-size: 0.40cm
+}
+
+.name {
+	position: absolute;
+
+	font-weight: 400;
+	font-size: 3.7cm;
+	text-align: left;
+	left: 0.8cm;
+	
+	font-family: 'Anton', sans-serif;
+}
+
+.title_line1 {
+	top: 7.1cm;
+	width: 14cm;
+}
+
+.title_line2 {
+	top: 10.4cm;
+}
+
+.title_line3 {
+	top: 23.8cm;
+}
+
+.logo_image {
+	position: absolute;
+	z-index: 0;
+	width: 20.6cm;
+	height: 6.6cm;
+	
+	left: -0.2cm;
+	top: 22.8cm;
+
+	opacity: 1.0;
+	
+	background-size: 22.6cm;
+	background-image: url('../../img/tzmfilogo.jpg');
+}
+
+.background_image_container {
+	position: absolute;
+	z-index: 0;
+	width: 15.0cm;
+	height: 15.0cm;
+	
+	top: 0.4cm;
+  	left: 0.4cm;
+	
+	opacity: 0.43;
+	
+	background-size: 15.0cm;
+	background-image: url('../../img/tzmfilogo.jpg');
+}
+
