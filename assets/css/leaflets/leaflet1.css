@@ -149,6 +149,11 @@ div {
   visibility: hidden;	
 }
 
+.logo_imaged1 {
+	top: 23cm;
+  left: 1cm;	
+}
+
 .contact {
 	font-size: 0.6cm;
 	left: 6.2cm;
