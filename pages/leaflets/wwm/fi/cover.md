@@ -16,14 +16,15 @@ title_text:
 //text_font_size: 0.86cm
 //text_font_weight: 200
 text: >
- Maailma ilman rahaa on väistämätön<hr />
- Maailma ilman rahaa on toteutettavissa<hr />
- Maailma ilman rahaa on parempi<hr />
- Maailma ilman rahaa on mahdollinen<hr />
+ Maailma ilman rahaa on...<hr />
+ väistämätön<hr />
+ toteutettavissa<hr />
+ parempi<hr />
+ mahdollinen<hr />
 
 contact: |
   zeitgeistfinland@gmail.com
-  <hr>tzm.fi
+  tzm.fi
 
 ---
 

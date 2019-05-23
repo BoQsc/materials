@@ -11,9 +11,11 @@ div {
 	border-width: 1px;
 
   	margin-right: 5px;
+
+    font-family: 'Cantarell', sans-serif;
 }
 
-.title {
+.leaflet .title {
 	width: 19.1cm;
 	height: 3cm;
 	text-align: left;
@@ -22,7 +24,7 @@ div {
     left: 1.1cm;
     font-size: 1.7cm;
     line-height: 1.3cm;
-    font-weight: 400;
+    font-weight: 500;
 }
 
 .title_cover {
@@ -39,8 +41,23 @@ div {
 
 .cover .text_cover {
 	text-align: center;
-	font-size: 1cm;
-	line-height: 2cm;
+	font-size: 1.6cm;
+	line-height: 1.4cm;
+	top: 6.7cm;
+	height: 10cm;
+	font-weight: 300;
+}
+
+.cover .logo_image_cover {
+	width: 11cm;
+	height: 11cm;
+	top: 16.9cm;
+	left: 4.5cm;
+	background-size: 10.98cm;
+}
+
+.cover .contact {
+	visibility: hidden;
 }
 
 .title2 {
@@ -48,7 +65,6 @@ div {
 }
 
 .logo_image {
-	top: 22.4cm;
 	width: 4.6cm;
 	height: 4.6cm;
 	left: 1.1cm;
@@ -57,11 +73,12 @@ div {
 	background-size: 4.6cm;
 }
 
-.title_cover_line1 {
-	top: 24.0cm;	
-	left: 5.2cm;
-	width: 14cm;
-	text-align: left;
+.leaflet .title_cover_line1 {
+	top: 1.0cm;	
+	left: 0.1cm;
+	width: 19.2cm;
+	font-size: 3.4cm;
+	text-align: center;
 }
 
 .title_line1 {
@@ -77,13 +94,13 @@ div {
 }
 
 .text {
-	font-size: 0.6cm;
+	font-size: 0.67cm;
 	line-height: 0.6cm;
 	left: 1.1cm;
 	height: 21cm;
-	top: 3.6cm;
+	top: 3.8cm;
 	width: 19cm;
-	text-align: justify;
+	text-align: left;
 }
 
 .text hr {
@@ -92,12 +109,44 @@ div {
 	visibility: hidden;
 }
 
+.bgimage {
+  opacity: 0.3;
+}
+
 .text2 {
 //	font-size: 0.5cm;
 }
 
 .text3 {
 //	font-size: 0.6cm;
+}
+
+.textd1 {
+	top: 10cm;
+	
+}
+
+.titled1_line2 {
+	top: 5cm;
+	font-size: 1cm;
+	width: 19.1cm;
+	height: 2cm;
+  text-align: center;
+}
+
+.titled1_line1 {
+  top: 19cm;
+	width: 19cm;
+	left: 0.1cm;
+	text-align: center;
+}
+
+.bgimaged1 {
+	top: 8cm;
+}
+
+.contactd1 {
+  visibility: hidden;	
 }
 
 .contact {
