@@ -156,9 +156,10 @@ div {
 
 .contact {
 	font-size: 0.6cm;
+	font-weight: 400; 
 	left: 6.2cm;
 	height: 2cm;
-	top: 27.5cm;
+	top: 27.2cm;
 	width: 8cm;
 	text-align: left;
 }
