@@ -27,6 +27,16 @@ div {
     font-weight: 500;
 }
 
+.contact {
+	font-size: 0.6cm;
+	font-weight: 400; 
+	left: 6.2cm;
+	height: 2cm;
+	top: 27.2cm;
+	width: 8cm;
+	text-align: left;
+}
+
 .title_cover {
 	width: 19.1cm;
 	height: 3cm;
@@ -146,20 +156,21 @@ div {
 }
 
 .contactd1 {
-  visibility: hidden;	
+	top: 22.7cm;
+	line-height: 0.7cm;
+  width: 15cm;
+	word-spacing: 0.1cm;
+}
+
+.contactd1_2 {
+	top: 22.7cm;
+	left: 12.5cm;
+	line-height: 0.7cm;
+  width: 15cm;
+	word-spacing: 0.1cm;
 }
 
 .logo_imaged1 {
 	top: 23cm;
   left: 1cm;	
-}
-
-.contact {
-	font-size: 0.6cm;
-	font-weight: 400; 
-	left: 6.2cm;
-	height: 2cm;
-	top: 27.2cm;
-	width: 8cm;
-	text-align: left;
 }
