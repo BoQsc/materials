@@ -13,7 +13,6 @@ layout: none
 		href="{{ base }}/assets/css/leaflets/leaflet1.css">
 	
 	<link href="https://fonts.googleapis.com/css?family=Anton" rel="stylesheet"> 
-	<script src="{{ base }}/assets/vendor/html2canvas.min.js"></script>
 	
 	<style>			
 		{% if page.text_font_size %}
@@ -30,11 +29,11 @@ layout: none
 		}
 		{% endif %}
 		
-		{% if page.title1_font_size %}
-		.title1 {
-			font-weight: {{ page.title1_font_weight }};
-			font-size: {{ page.title1_font_size }};	
-			line-height: {{ page.title1_font_line }};
+		{% if page.title3_font_size %}
+		.title3 {
+			font-weight: {{ page.title3_font_weight }};
+			font-size: {{ page.title3_font_size }};	
+			line-height: {{ page.title3_font_line }};
 		}
 		{% endif %}
 		
@@ -50,21 +49,20 @@ layout: none
 
 <body>
 	<div class="leaflet tocanvas">
-		<div class="bgimage1 bgimage"></div>
-		<div class="logo_image1 logo_image"></div>
+		<div class="bgimage{{ page.pageid }} bgimage"></div>
+		<div class="logo_image{{ page.pageid }} logo_image"></div>
 
-		<div class="text1 text">{{ page.text }}</div>
+		<div class="text{{ page.pageid }} text">{{ page.text }}</div>
 
-		<div class="title1 title">{{ page.title_text }}</div>
+		<div class="title{{ page.pageid }} title">{{ page.title_text }}</div>
 		
-		<div class="title1_line1 title_line1 name">{{ page.title_line1 }}</div>
-		<div class="title1_line2 title_line2 name">{{ page.title_line2 }}</div>
-		<div class="title1_line3 title_line3 name">{{ page.title_line3 }}</div>
+		<div class="title{{ page.pageid }}_line1 title_line1 name">{{ page.title_line1 }}</div>
+		<div class="title{{ page.pageid }}_line2 title_line3 name">{{ page.title_line2 }}</div>
+		<div class="title{{ page.pageid }}_line3 title_line3 name">{{ page.title_line3 }}</div>
 		
-		<div class="contact">{{ page.contact }}</div>
+		<div class="contact{{ page.pageid }} contact">{{ page.contact }}</div>
+		<div class="contact{{ page.pageid }}_2 contact">{{ page.contact2 }}</div>
 	</div>
 
-	<script src="{{ base }}/assets/js/tocanvas.js"></script>
-	
 </body>
 </html>
