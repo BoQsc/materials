@@ -11,15 +11,16 @@ div {
 
 body {
 	border-style: solid;
-	border-width: 1px;
+	border-width: 0px;
 }
 
 .leaflet {
 	width: 21cm;
-	height: 29.6cm;
+	height: 29.9cm;
 
 	border-style: solid;
 	border-width: 1px;
+	border-color: white;
 
   	margin-right: 5px;
   	margin-bottom: 0px;
