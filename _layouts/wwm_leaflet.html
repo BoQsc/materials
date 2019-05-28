@@ -30,24 +30,34 @@ layout: none
 </head>
 
 <body>
-	<page id="cover">cover</page>
-	<page id="a1">a1</page>
-	<page id="b1">b1</page>
-	<page id="b2">b2</page>
-	<page id="b3">b3</page>
-	<page id="b4">b4</page>
-	<page id="c1">c1</page>
-	<page id="d1">d1</page>
+	<div class="twopages">
+	<div class="page left" id="cover">cover</div> <div class="div right" id="8">8</div>
+	</div>
+	<hr class="pb" />
+	<div class="twopages">
+	<div class="div left" id="2">2</div> <div class="div right" id="7">7</div>
+	</div>
+	<hr class="pb" />
+	<div class="twopages">
+	<div class="div left" id="3">3</div> <div class="div right" id="6">6</div>
+	</div>
+	<hr class="pb" >
+	<div class="twopages">
+	<div class="div left" id="4">4</div> <div class="div right" id="5">5</div>
+	</div>
+	
+	
+	
 
 	<script>
-		$("#cover").load('cover.html .leaflet');
-		$("#a1").load('a1.html .leaflet');
-		$("#b1").load('b1.html .leaflet');
-		$("#b2").load('b2.html .leaflet');
-		$("#b3").load('b3.html .leaflet');
-		$("#b4").load('b4.html .leaflet');
-		$("#c1").load('c1.html .leaflet');
-		$("#d1").load('d1.html .leaflet');
+		$("#cover").load('1cover.html .leaflet');
+		$("#2").load('2.html .leaflet');
+		$("#3").load('3.html .leaflet');
+		$("#4").load('4.html .leaflet');
+		$("#5").load('5.html .leaflet');
+		$("#6").load('6.html .leaflet');
+		$("#7").load('7.html .leaflet');
+		$("#8").load('8.html .leaflet');
 	</script>
 	
 </body>
