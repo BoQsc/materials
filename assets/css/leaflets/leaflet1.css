@@ -18,7 +18,7 @@ body {
 
 .twopages {
 	width: 42cm;
-	height: 29.7cm;	
+	height: 29.3cm;	
 	position: relative;
 }
 
@@ -42,6 +42,7 @@ body {
 	height: 0.001cm;
 	border-style: solid;
 	border-width: 0px;
+	margin: 0cm;
 }
 
 .left {
@@ -117,7 +118,7 @@ body {
 	width: 4.6cm;
 	height: 4.6cm;
 	left: 1.1cm;
-	top: 24.7cm;
+	top: 24.5cm;
 	opacity: 0.9;
 	background-size: 4.6cm;
 }
