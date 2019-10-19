@@ -8,7 +8,12 @@
 
 source "https://rubygems.org"
 
-gem "jekyll", "~> 3.6.0"
 gem "jekyll-assets"
 gem "jekyll-seo-tag"
 gem "jekyll-toc"
+gem "jekyll-sitemap"
+gem "jekyll-feed"
+
+gem "jekyll", "~> 4.0"
+
+gem "html-proofer"

@@ -1,13 +1,14 @@
 ---
 layout: page
-title: About
-permalink: /about/
+title: About TZM
+permalink: /abouttzm/
 tags: [About, Archive]
+parentid: about
 order: 1
-hide: true
 toc: true
 ---
 
+---
 ## Our Mission Statement
 
 Founded in 2008, The Zeitgeist Movement is a Sustainability
@@ -125,7 +126,6 @@ chapter affiliation.
 
 
 ## How does TZM view our major social problems today?
-&nbsp;
 
 TZM is different from most activist communities and
 political/social movements in the world today, due to the way we

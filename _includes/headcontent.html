@@ -3,9 +3,6 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
     
-    <!-- CSS -->
-    <link rel="stylesheet" href="{{ base }}/assets/css/main.css">
- 
     <!--Favicon-->
     <link rel="shortcut icon" href="/{{ site.theme_settings.favicon }}" type="image/x-icon">
 
@@ -22,13 +19,22 @@
     {% if page.nostyle %}
     {% else %}
     <!-- Bootstrap 4 isolation CSS -->
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <link rel="stylesheet" href="{{ base }}/assets/vendor/bootstrap/css/bootstrap.min.css" crossorigin="anonymous">
     
     {% endif %}
-    
-    <!-- Google Fonts {{ site.google_fonts }} -->
+   
+	<!-- jQuery -->
+	<script src="{{ base }}/assets/vendor/jquery/jquery.js" ></script>
+ 	<script src="{{ base }}/assets/vendor/jquery/jquery-migrate-1.0.0.js"></script>
+
+   	<!-- CSS -->
+    <link rel="stylesheet" href="{{ base }}/assets/css/main.css">
+ 
     {% if site.google_fonts %}
+    <!-- Google Fonts {{ site.google_fonts }} -->
     <link href="//fonts.googleapis.com/css?family={{ site.google_fonts }}" rel="stylesheet" type="text/css"> 
+	{% else %}
+    <link rel="stylesheet" href="{{ base }}/assets/css/{{ site.local_fonts }}.css">	
     {% endif %}
     
     {% if page.use_gallery %}

@@ -1,14 +1,23 @@
-//
-body {
-  padding-top: 54px;
- }
 
-.container {
-    font-family: 'Roboto', sans-serif;
+body {
+	padding-top: 54px;
+	color: #323240;
+	line-height: 1.4;
 }
 
-.container h1, .container h2 {
+.container {
+    font-family: 'Cantarell', sans-serif;
+}
+
+.container h1, .container h2, .container h3 {
     font-family: 'Fjalla One', sans-serif;
+}
+
+.alert {
+	margin-top: 0px;	
+	width: 100%;
+	text-align: center;
+	font-size: 140%;
 }
 
 @media (min-width: 176px) {
@@ -92,7 +101,7 @@ body {
 .site-header {
   height: 50vh;
   min-height: 200px;
-  margin-top: 60px;
+  margin-top: 10px;
 
   display: flex;
   flex-direction: column;
@@ -111,7 +120,7 @@ body {
 .site-header-slim {
   height: 10rem;
   min-height: 100px;
-  margin-top: 60px;
+  margin-top:10px;
   
   display: flex;
   flex-direction: column;
@@ -141,6 +150,11 @@ body {
 
 .events {
 	margin-top: 20px;	
+	margin-bottom: 20px;
+}
+
+.events h1 {
+	font-size: 2.6rem;	
 }
 
 .event-title {
@@ -165,7 +179,15 @@ body {
 }
 
 .posts {
-	margin-top: 50px;	
+	margin-top: 50px;
+}
+
+.posts .col-md-12 {
+	margin-top: 20px;
+}
+
+.posts .col-md-6 {
+	margin-top: 20px;
 }
 
 .posts .card {
@@ -178,8 +200,13 @@ body {
 	color: #6c757d!important;
 }
 
+.card {
+  	height: 100%;
+}
+
 .box-shadow {
-	box-shadow: 0 0.25rem 0.75rem rgba(0, 0, 0, .05);
+	border-color: #f0f0f0;
+	box-shadow: 0 0.25rem 0.75rem rgba(0, 0, 0, .005);
 }
 
 .post-link {
@@ -188,10 +215,6 @@ body {
 
 .toc-entry a {
   color: #343a40!important;
-}
-
-.card {
-  height: 100%;
 }
 
 blockquote {
@@ -203,6 +226,45 @@ blockquote {
   border-left: 3px solid #ccc;
 } 
 
+.widget {
+	font-size: 80%;	
+}
+
+.widget h5 {
+	font-size: 120%;	
+}
+
+@media (min-width: 576px) {
+	.news_widget {
+		display: none;	
+	}
+
+	.news_widget iframe {
+		height: 200px;
+	}
+}
+
+@media (min-width: 768px) {	
+	.news_widget {
+		display: table;	
+	}
+
+	.news_widget iframe {
+		height: 600px;
+	}
+}
+
+.news_widget iframe {
+	width: 100%;
+}
+
+.news_widget h4 {
+	margin-top: 30px;	
+}
+
+.widget_posts_row {
+	margin-top: 10px;	
+}
 
 // GALLERY
 
@@ -281,10 +343,22 @@ blockquote {
 }
 
 .row {
-  margin: 0px;  
+  	margin: 0px;  
+}
+
+.box {
+	border-
 }
 
 .page-footer {
 	margin-top: 30px;
  	background-color: #f0f0f0;
+}
+
+.dropdown-menu {
+  margin: 0px;
+}
+
+.wp-block-image img {
+  width: 100%;
 }
