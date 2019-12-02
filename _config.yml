@@ -9,8 +9,8 @@ chapter_name: Shire
 
 # site description
 description: >- # this means to ignore newlines until "baseurl:"
-  Template for the Zeigeist Movement Chapter site.
-
+  Flyers and other stuff for TZM
+  
 # site author
 author: Zeitgeist movement
 
@@ -34,7 +34,7 @@ baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://template.tzm.community" # the base hostname & protocol for your site
 
 # View an message that will be show on every page
-show_alert: true
+show_alert: false
 
 # Alert text that will be show on every page
 alert_text: This is currently an example template page. TZMCommunity template engine is a way to create sites that are well performing and easy to setup. Check out docs here <a href="https://tzmcommunity.github.io/docs/">https://tzmcommunity.github.io/docs/</a>
