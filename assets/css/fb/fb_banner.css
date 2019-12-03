@@ -8,7 +8,7 @@ div {
 }
 
 .fbimage {
-	width: 30cm;
+	width: 23.4cm;
 	height: 10cm;
 
 	border-style: solid;
@@ -75,8 +75,8 @@ div {
 .title {
 	position: absolute;
 	
-	width: 22.6cm;
-	height: 18cm;
+	width: 22.7cm;
+	height: 10cm;
 	top: 1.2cm;
 	left: 0.6cm;
 	
@@ -85,7 +85,7 @@ div {
 		
 	line-height: 2.8cm;
 	font-weight: 400;
-	font-size: 1.8cm
+	font-size: 1.08cm
 }
 
 .name {
@@ -100,9 +100,11 @@ div {
 }
 
 .title_line1 {
-	top: 3cm;
-	width: 28cm;
-	font-size: 2.5cm;
+	left: 1.5cm;
+	top: 1.8cm;
+	width: 12cm;
+	font-size: 1.8cm;
+	line-height: 2.25cm;
 }
 
 .title_line2 {
@@ -117,15 +119,15 @@ div {
 .logo_image {
 	position: absolute;
 	z-index: 0;
-	width: 9.0cm;
-	height: 9.0cm;
+	width: 8.5cm;
+	height: 8.5cm;
 	
-	top: 2.2cm;
-  left: 20.2cm;
+	top: 2cm;
+  left: 12.9cm;
 
 	opacity: 0.44;
 	
-	background-size: 9cm;
+	background-size: 8.5cm;
 	background-image: url('../../img/tzmlogo_color.png');
 }
 
