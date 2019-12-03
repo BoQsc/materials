@@ -1,0 +1,146 @@
+#finalimg {
+	height: 100%;
+}
+
+div {
+	border-style: dashed;
+	border-width: 0px;
+}
+
+.fbimage {
+	width: 30cm;
+	height: 10cm;
+
+	border-style: solid;
+	border-width: 1px;
+
+  	margin-right: 0px;
+	
+}
+
+.text {
+	position: absolute;
+	
+	width: 28.6cm;
+	height: 3cm;
+	top: 19.3cm;
+	left: 0.8cm;
+	
+	margin-top: 0px;
+	padding: 0px;
+
+//	text-align: justify;
+	vertical-align: top;
+	
+	font-weight: 400;
+	font-size: 0.96cm;	
+}
+
+.text2 {
+	position: absolute;
+	
+	width: 19.6cm;
+	height: 18cm;
+	top: 15.6cm;
+	left: 0.8cm;
+	
+	margin-top: 0px;
+	padding: 0px;
+
+//	text-align: justify;
+	vertical-align: top;
+	
+	font-weight: 400;
+	font-size: 0.92cm;
+}
+
+.contact {
+	position: absolute;
+	
+	width: 10cm;
+	height: 2.6cm;
+	top: 23.56cm;
+	left: 11.2cm;
+	
+	margin-top: 0px;
+	padding: 0px;
+
+//	text-align: justify;
+	vertical-align: bottom;
+	
+	font-weight: 100;
+	font-size: 0.74cm;
+}
+
+.title {
+	position: absolute;
+	
+	width: 22.6cm;
+	height: 18cm;
+	top: 1.2cm;
+	left: 0.6cm;
+	
+	text-align: center;
+ 	visibility: hidden;
+		
+	line-height: 2.8cm;
+	font-weight: 400;
+	font-size: 1.8cm
+}
+
+.name {
+	position: absolute;
+
+	font-weight: 400;
+	font-size: 2.4cm;
+	text-align: left;
+	left: 0.8cm;
+	
+	font-family: 'Anton', sans-serif;
+}
+
+.title_line1 {
+	top: 3cm;
+	width: 28cm;
+	font-size: 2.5cm;
+}
+
+.title_line2 {
+	top: 8.4cm;
+	font-size: 4cm;
+}
+
+.title_line3 {
+	top: 23.8cm;
+}
+
+.logo_image {
+	position: absolute;
+	z-index: 0;
+	width: 9.0cm;
+	height: 9.0cm;
+	
+	top: 2.2cm;
+  left: 20.2cm;
+
+	opacity: 0.44;
+	
+	background-size: 9cm;
+	background-image: url('../../img/tzmlogo_color.png');
+}
+
+.background_image_container {
+	position: absolute;
+	z-index: 0;
+	width: 30cm;
+	height: 20cm;
+	
+	top: -5cm;
+  left: 0cm;
+	
+	opacity: 0.53;
+	
+	background-size: 34cm;
+	background-image: url('../../img/autumn-219972_1280.jpg');
+}
+
