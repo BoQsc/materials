@@ -1,0 +1,166 @@
+#finalimg {
+	height: 100%;
+}
+
+div {
+	border-style: dashed;
+	border-width: 0px;
+	
+  font-family: 'Anton', sans-serif;
+	font-size: 1cm;
+	line-height: 1cm;	
+}
+
+.title {
+	margin-left: 1.1cm;
+	margin-top: 0.6cm;
+	margin-bottom: 0.1cm;
+
+	font-size: 1.2cm;
+	
+	opacity: 1;
+}
+
+.part {
+	margin-left: 1.4cm;
+  margin-right: 1cm;
+	margin-bottom: 0.2cm;
+  opacity: 1;
+}
+
+.activism_card {
+	width: 30cm;
+	height: 21cm;
+
+	border-style: solid;
+	border-width: 1px;
+
+	margin-right: 10px;
+	
+}
+
+.bg_container {
+  position: absolute;
+	z-index: 1;
+	opacity: 1;
+}
+
+
+.text_container {
+  position: absolute;
+	z-index: 2;
+}
+
+
+.contact {
+	position: absolute;
+	
+	width: 10cm;
+	height: 2.6cm;
+	top: 23.56cm;
+	left: 11.2cm;
+	
+	margin-top: 0px;
+	padding: 0px;
+
+//	text-align: justify;
+	vertical-align: bottom;
+	
+	font-weight: 100;
+	font-size: 0.74cm;
+}
+
+.main_title {	
+	width: 28.6cm;
+	margin-top: 0.2cm;
+	
+	text-align: left;
+ 	visibility: visible;
+  margin-bottom: 0px;
+	
+	line-height: 2.8cm;
+	font-weight: 400;
+	font-size: 1.7cm;
+		
+	font-family: 'Anton', sans-serif;
+}
+
+.more_info {
+	font-weight: 400;
+	font-size: 1.4cm;
+	text-align: left;
+	margin-bottom: 1cm;
+	margin-left: 1.1cm;
+}
+
+.info_line1 {
+	top: 6.6cm;
+}
+
+.info_line2 {
+	top: 8.0cm;
+}
+
+.info_line3 {
+	top: 10.4cm;
+}
+
+.platforms_title {
+  top: 18.6cm;
+}
+
+.platforms_text {
+  top: 19.5cm;
+}
+
+.meetups_title {
+  top: 13.0cm;
+}
+
+.meetups_wed_title {
+  top: 14.0cm;
+}
+
+.meetups_wed_info {
+  top: 15.0cm;
+}
+
+.meetups_sat_title {
+  top: 16.0cm;
+}
+
+.meetups_sat_info {
+  top: 17.0cm;
+}
+
+.logo_image {
+	position: absolute;
+	width: 13.0cm;
+	height: 13.0cm;
+	
+	top: 6.6cm;
+  left: 15.4cm;
+
+	opacity: 0.34;
+	z-index: -1;
+	
+	background-size: 12.96cm;
+	background-image: url('../img/tzmlogo_color.png');
+}
+
+.background_image_container {
+	position: absolute;
+	width: 29cm;
+	height: 20cm;
+	
+	top: 0.4cm;
+  left: 0.4cm;
+	
+	opacity: 0.54;
+
+	z-index: -2;
+
+	background-size: 34cm;
+	background-image: url('../img/green.png');
+}
+

@@ -1,0 +1,47 @@
+--- 
+layout: none
+
+---
+
+<html>
+<head>
+	{% include flyerhead.html %}
+	
+	<link rel="stylesheet"
+		href="{{ base }}/assets/css/activism_card.css">
+	
+	<link href="https://fonts.googleapis.com/css?family=Anton" rel="stylesheet"> 
+	<script src="{{ base }}/assets/vendor/html2canvas.min.js"></script>
+</head>
+
+<body>
+	<div class="activism_card tocanvas">
+    <div class="bg_container">
+			<div class="background_image_container"></div>
+	    <div class="logo_image"></div>
+    </div>
+
+    <div class="text_container">
+	    <div class="main_title title">{{ page.title }}</div>
+	    <div class="more_info part">{{ page.more_info }}</div>
+	
+	    <div class="info_line1 part">{{ page.info_line1 }}</div>
+	    <div class="info_line2 part">{{ page.info_line2 }}</div>
+	    <div class="info_line3 part">{{ page.info_line3 }}</div>
+	
+	    <div class="meetups_title title">{{ page.meetups_title }}</div>
+	    <div class="meetups_wed_info part">{{ page.meetups_wed_info }}</div>
+	    <div class="meetups_wed_title part">{{ page.meetups_wed_title }}</div>
+	
+	    <div class="meetups_sat_info part">{{ page.meetups_sat_info }}</div>
+	    <div class="meetups_sat_title part">{{ page.meetups_sat_title }}</div>		
+	
+	    <div class="platforms_title title">{{ page.platforms_title }}</div>
+	    <div class="platforms_text part">{{ page.platforms_text }}</div>
+    </div>
+	</div>
+	
+	<script src="{{ base }}/assets/js/FAtocanvas.js"></script>
+	
+</body>
+</html>
