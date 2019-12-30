@@ -13,6 +13,7 @@ div {
 
 .title {
 	margin-left: 1.1cm;
+  margin-right: 1cm;
 	margin-top: 0.6cm;
 	margin-bottom: 0.1cm;
 
@@ -47,6 +48,7 @@ div {
 
 
 .text_container {
+	width: 30cm;
   position: absolute;
 	z-index: 2;
 }
@@ -73,10 +75,11 @@ div {
 .main_title {	
 	width: 28.6cm;
 	margin-top: 0.2cm;
+  margin-bottom: 0px;
+  margin-right: 1cm;
 	
 	text-align: left;
  	visibility: visible;
-  margin-bottom: 0px;
 	
 	line-height: 2.8cm;
 	font-weight: 400;

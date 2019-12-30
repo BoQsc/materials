@@ -9,9 +9,9 @@ title_line1:
 title_line2: 
 title_line3: 
 
-info_line1: 1. Once a week check thecommunity  announcements
+info_line1: 1. Once a week check the community announcements
 info_line2: 2. Make sure to properly write announcements that are relevant for everyone to read and post them in the #development_and_news channel in Discord
-info_line3: 3. Check our personal messages and pings (when people mention us) in discord, at least once a week.
+info_line3: 3. Check our personal messages and mentions in discord, at least once a week.
 
 platforms_title: "Platforms we use:"
 platforms_text: https://tzm.community/platforms
