@@ -1,0 +1,6 @@
+assets/vendor/jquery/jquery.min.js
+assets/vendor/jquery/jquery-migrate-1.0.0.js
+assets/vendor/popper/popper.min.js
+assets/vendor/bootstrap/js/bootstrap.min.js
+assets/js/tzm-news-widget.js
+assets/js/main.js

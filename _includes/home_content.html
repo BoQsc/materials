@@ -1,0 +1,24 @@
+  {% if site.show_content_on_homepage %}
+  <div class="row mb-2 posts">
+     <div class="col-md-12 home_content">
+     {{ content }}
+     </div>
+  </div>
+  {% endif %}
+  <!-- END OF CONTENT -->
+
+  <!-- EVENTS -->
+  {% if site.show_events_on_homepage %}
+  <div class="row mb-2 posts">
+     <div class="col-md-12 home_content">
+      {% include events.html %}
+     </div>
+  </div>
+  {% endif %}
+  <!-- END OF EVENTS -->
+
+  <!-- END OF POSTS -->
+  {% if site.show_posts_on_homepage %}
+  {% include home_posts.html %}
+  {% endif %}
+  <!-- END OF POSTS -->

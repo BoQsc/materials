@@ -4,88 +4,25 @@ layout: default
   {% include base.html %}
 
   {% if site.sidepanel %}
-  <!-- SIDEPANEL -->
   <div class="row">
-  <div class="col-md-4">
+      <div class="col-lg-8">
+		  <!-- CONTENT -->
+		  {% include home_content.html %}
+      </div>
+        
+	  <!-- SIDEPANEL -->
+	  <div class="col-lg-4 sidepanel-col">
+        {% include sidepanel_content.html %}
+      </div>
+      <!-- SIDEPANEL CLOSING -->
+  </div> 
+  {% else %}
 
-  {% if site.sidepanel_news %}
-  <!-- NEWS WIDGET -->
-  <div class="news_widget">
-  <h4>News</h4>
-  <iframe src="{{ site.news_widget_url }}" frameborder="0"></iframe>
-  </div>
-  <!-- END OF NEWS WIDGET -->
-  {% endif %}
-
-  </div>
-  <div class="col-md-8">
-  {% endif %}
-
-  <!-- CONTENT -->
-  {% if site.show_content_on_homepage %}
-  <div class="row mb-2 posts">
-     <div class="col-md-12 home_content">
-     {{ content }}
-     </div>
-  </div>
-  {% endif %}
-  <!-- END OF CONTENT -->
-
-  <!-- EVENTS -->
-  {% if site.show_events_on_homepage %}
-  {% include events.html %}
-  {% endif %}
-  <!-- END OF EVENTS -->
-
-  <!-- END OF POSTS -->
-  {% if site.show_posts_on_homepage %}
-	<!-- POSTS -->
-  <div class="row mb-2 posts">
-  	{% assign counter = 0 %}
+     <!-- CONTENT -->
+     {% include home_content.html %}
   
-    {% for post in site.posts %}
-    {% if post.hide==false and counter < site.posts_max_home %}
-	{% if site.posts_two_col == true%}
-    <div class="col-md-6 posts_row">
-	{% elsif site.posts_three_col == true %}
-    <div class="col-md-4 posts_row">
-  	{% else %}
-    <div class="col-md-12 posts_row">
-	{% endif %}
-	
-	{% assign counter = counter | plus: 1 %}
-	
-	    <div class="card mb-4 box-shadow h-md-250 post-teaser">
-	      {% if post.thumbnail %}
-	      <div class="thumbnail">
-	         <img src="{{ base }}/{{ post.thumbnail }}">
-	      </div>
-	      {% endif %}
-  		 	<header class="posts_item_header">
-	      	   <h3 class="mb-0">
-	              <a class="post-link" href="{{ base }}{{ post.url }}">
-	                {{ post.title }}
-	              </a>
-	           </h3>
-	            <p class="meta">
-	              {{ post.date | date: "%B %-d, %Y" }}
-	            </p>
-	          </header>
-
-	          <div class="excerpt">
-	              {{ post.excerpt }}
-	            <!--{{ post.content | strip_html | truncate: "250" }}-->
-	            <!--<a class="button" href="{{ post.url }}">
-	              {{ site.theme_settings.str_continue_reading }}
-	            </a>-->
-	          </div>
-	    </div>
-	</div>
-	{% endif %}
-    {% endfor %}
-  </div>
-
   {% endif %}
+
   <!-- END OF POSTS -->
 
   {% include flyers.html %}

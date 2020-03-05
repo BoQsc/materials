@@ -5,9 +5,10 @@ jobs:
   build:
     <<: *defaults
     docker:
-      - image: circleci/ruby:2.6.5
+      - image: circleci/ruby:2.6-node-browsers-legacy
     environment:
       BUNDLE_PATH: ~/repo/vendor/bundle
+      JEKYLL_ENV: "production"
     steps:
       - checkout
       - restore_cache:
@@ -31,8 +32,11 @@ jobs:
           paths:
             - vendor/bundle
       - run:
+          name: bundle
+          command: bash bundle.sh
+      - run:
           name: Jekyll build
-          command: bundle exec jekyll build
+          command: bundle exec jekyll build --trace
       - persist_to_workspace:
           root: ./
           paths:

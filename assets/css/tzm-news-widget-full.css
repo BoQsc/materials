@@ -1,0 +1,120 @@
+.tzm-news-container {
+  color: #555;
+  font-family: Arial, sans-serif;
+  background-color: white;
+  padding: 15px;
+  width: 100%;
+  margin-right: auto;
+  margin-left: auto;
+}
+.tzm-news-container p {
+  color: #555;
+  font-family: Arial, sans-serif;
+}
+.tzm-news-container p.tzm-news-info {
+  color: #517393;
+}
+.tzm-news-container p.tzm-news-info a,
+.tzm-news-container p.tzm-news-info a:visited {
+  color: #6a8dad;
+}
+.tzm-news-container p.tzm-news-info a:hover {
+  color: #364c62;
+}
+.tzm-news-container a {
+  color: #222222;
+  text-decoration: none;
+}
+.tzm-news-container a:hover {
+  color: #000000;
+  text-decoration: underline;
+}
+.tzm-news-container a a:visited {
+  color: #7b7b7b;
+}
+.tzm-news-container button {
+  cursor: pointer;
+  color: #2d4051;
+  font-weight: bold;
+  background: white;
+  border: none;
+  color: #6a8dad;
+}
+.tzm-news-container button:hover {
+  color: #364c62;
+}
+@media (min-width: 576px) {
+  .tzm-news-container {
+    max-width: 540px;
+  }
+}
+@media (min-width: 768px) {
+  .tzm-news-container {
+    max-width: 720px;
+  }
+}
+@media (min-width: 992px) {
+  .tzm-news-container {
+    max-width: 960px;
+  }
+}
+@media (min-width: 1200px) {
+  .tzm-news-container {
+    max-width: 1140px;
+  }
+}
+.tzm-news-row {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  margin-right: -15px;
+  margin-left: -15px;
+}
+.tzm-news-error {
+  color: darkred;
+}
+.tzm-news-warning {
+  color: orange;
+}
+.tzm-news-info {
+  color: #517393;
+}
+.tzm-news-info a,
+.tzm-news-info a:visited {
+  color: #6a8dad;
+}
+.tzm-news-info a:hover {
+  color: #364c62;
+}
+.tzm-news-pagination {
+  color: #517393;
+}
+.tzm-news-pagination a,
+.tzm-news-pagination a:visited {
+  color: #6a8dad;
+}
+.tzm-news-pagination a:hover {
+  color: #364c62;
+}
+.tzm-news-post {
+  border: 1px solid #f0f0f0;
+  box-shadow: 0 0.25rem 0.75rem rgba(0, 0, 0, 0.005);
+  margin: 1em 0;
+  padding: 0.5em;
+}
+.tzm-news-header {
+  font-weight: bold;
+}
+.tzm-news-item-number {
+  color: #666666;
+}
+.tzm-news-day-news-link {
+  color: #3b3b3b;
+  text-decoration: none;
+}
+.tzm-news-day-news-link:hover {
+  color: #222222;
+  text-decoration: underline;
+}
+/*# sourceMappingURL=tzm-news-widget-full.css.map */

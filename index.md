@@ -8,9 +8,13 @@ postnav_title: "TZM materials"
 # second title
 postnav_subtitle: "flyers and other materials in different languages created with templates"
 
-# home page header image
-header_image: "/assets/img/home-bg.jpg"
+# second link
+postnav_link: "abouttzm"
 
-# if header height is reduced
-slim_header: true
+# second linktext
+postnav_linktext: "Learn more"
+
+# home page header image
+header_image: "/assets/img/autumn-219972_1280.jpg"
+
 ---

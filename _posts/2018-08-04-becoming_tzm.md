@@ -9,6 +9,10 @@ author: Juuso
 
 # hide post
 hide: true
+
+# thumbnail
+thumbnail: assets/img_scaled/TZMscene1.png
+
 ---
 
 >Sometimes the slightest things change the directions of our lives, the merest breath of a circumstance, a random moment that connects like a meteorite striking the earth. Lives have swiveled and changed direction on the strength of a chance remark.

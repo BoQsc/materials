@@ -16,17 +16,20 @@
     <!-- <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet"> -->
     <link rel="stylesheet" type="text/css" href="{{ base }}/assets/vendor/css/font-awesome.min.css">
 
+    <!-- news widget style -->
+    {% if site.sidepanel_news %}
+    <link rel="stylesheet" type="text/css" href="{{ base }}/assets/css/tzm-news-widget-full.css">
+    {% endif %}
+    <!-- news widget style end -->
+    
+    <!-- style start -->    
     {% if page.nostyle %}
     {% else %}
     <!-- Bootstrap 4 isolation CSS -->
     <link rel="stylesheet" href="{{ base }}/assets/vendor/bootstrap/css/bootstrap.min.css" crossorigin="anonymous">
-    
     {% endif %}
+    <!-- style end -->    
    
-	<!-- jQuery -->
-	<script src="{{ base }}/assets/vendor/jquery/jquery.js" ></script>
- 	<script src="{{ base }}/assets/vendor/jquery/jquery-migrate-1.0.0.js"></script>
-
    	<!-- CSS -->
     <link rel="stylesheet" href="{{ base }}/assets/css/main.css">
  
