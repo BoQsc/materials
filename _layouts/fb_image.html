@@ -17,7 +17,8 @@ layout: none
 		{% if page.text_font_size %}
 		.text {
 			font-weight: {{ page.text_font_weight }};
-			font-size: {{ page.text_font_size }};	
+			font-size: {{ page.text_font_size }};
+			line-height: {{ page.text_line_height }};
 		}
 		{% endif %}
 		
@@ -28,20 +29,17 @@ layout: none
 		}
 		{% endif %}
 		
-		{% if page.title_font_size %}
-		.title {
-			font-weight: {{ page.title_font_weight }};
-			font-size: {{ page.title_font_size }};	
-			line-height: {{ page.title_font_line }};
-		}
-		{% endif %}
-		
 		{% if page.name_font_size %}
 		.name {
 			font-weight: {{ page.name_font_weight }};
 			font-size: {{ page.name_font_size }};	
 		}
 		{% endif %}
+
+		.background_image_container {
+			background-image: url('{{ page.fb_bg_image }}');
+		}
+
 	</style>
 
 </head>

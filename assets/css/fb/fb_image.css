@@ -9,12 +9,12 @@ div {
 
 .fbimage {
 	width: 30cm;
-	height: 21cm;
+	height: 16cm;
 
 	border-style: solid;
 	border-width: 1px;
 
-  	margin-right: 10px;
+	margin-right: 10px;
 	
 }
 
@@ -22,8 +22,8 @@ div {
 	position: absolute;
 	
 	width: 28.6cm;
-	height: 3cm;
-	top: 19.3cm;
+	height: 3.0cm;
+	top: 11.1cm;
 	left: 0.8cm;
 	
 	margin-top: 0px;
@@ -34,13 +34,17 @@ div {
 	
 	font-weight: 400;
 	font-size: 0.96cm;	
+	
+  line-height: 2.0cm;
+
+  font-family: 'Fjalla One', sans-serif;
 }
 
 .text2 {
 	position: absolute;
 	
 	width: 19.6cm;
-	height: 18cm;
+	height: 15cm;
 	top: 15.6cm;
 	left: 0.8cm;
 	
@@ -76,12 +80,12 @@ div {
 	position: absolute;
 	
 	width: 22.6cm;
-	height: 18cm;
+	height: 15cm;
 	top: 1.2cm;
 	left: 0.6cm;
 	
 	text-align: center;
- 	visibility: hidden;
+	visibility: hidden;
 		
 	line-height: 2.8cm;
 	font-weight: 400;
@@ -100,13 +104,13 @@ div {
 }
 
 .title_line1 {
-	top: 3cm;
+	top: 1.5cm;
 	width: 28cm;
 	font-size: 4.1cm;
 }
 
 .title_line2 {
-	top: 8.4cm;
+	top: 5.5cm;
 	font-size: 4cm;
 }
 
@@ -117,15 +121,15 @@ div {
 .logo_image {
 	position: absolute;
 	z-index: 0;
-	width: 13.0cm;
-	height: 13.0cm;
+	width: 8.0cm;
+	height: 8.0cm;
 	
 	top: 2.2cm;
-  left: 15.4cm;
+	left: 19.0cm;
 
-	opacity: 0.44;
+	opacity: 0.74;
 	
-	background-size: 12.96cm;
+	background-size: 8cm;
 	background-image: url('../../img/tzmlogo_color.png');
 }
 
@@ -133,14 +137,14 @@ div {
 	position: absolute;
 	z-index: 0;
 	width: 29cm;
-	height: 20cm;
+	height: 15cm;
 	
 	top: 1.9cm;
-  left: 0.4cm;
+	left: 0.4cm;
 	
 	opacity: 0.53;
 	
 	background-size: 34cm;
-	background-image: url('../../img/autumn-219972_1280.jpg');
+	background-image: url('../../img/autumn-219972_1280.jpg'
 }
 
