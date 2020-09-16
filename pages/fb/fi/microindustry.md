@@ -14,7 +14,7 @@ title_font_weight: 500
 
 text_font_size: 2.30cm
 text_font_weight: 200
-text_line_height: 2.2cm;
+text_line_height: 2.8cm;
 text: Micro-industry as a backbone of local sustainable economies
 
 fb_bg_image: /assets/img/motor-768750_1280.jpg 
