@@ -11,7 +11,7 @@ author: Juuso
 hide: true
 
 # thumbnail
-thumbnail: assets/img_scaled/TZMscene1.png
+thumbnail: assets/img_scaled/TZMscene1.jpg
 
 ---
 

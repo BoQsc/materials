@@ -1,13 +1,66 @@
-
-
-{% if site.footer_text %}
+ {% if site.footer_text %}
+ {% include base.html %}
 <!-- Footer -->
-<footer class="page-footer font-small blue">
-	<div class="text-center py-3">{{ site.footer_text }}</div>
 
-	<!-- Social icons from Font Awesome, if enabled -->
-	{% include icons.html %}
-</footer>
-<!-- Footer -->
+	<!-- Footer Links -->
+	<div class="page-footer container text-center text-md-left">
+
+		<!-- Grid row -->
+		<div class="row">
+
+			<!-- Grid column -->
+			<div class="col-md-6 mt-md-0 mt-3">
+
+				<!-- Content -->
+				<h5 class="text-uppercase">The Zeitgeist Movement</h5>
+				<p>A global grassroots movement for sustainability.</p>
+
+			</div>
+			<!-- Grid column -->
+
+			<hr class="clearfix w-100 d-md-none pb-3">
+
+			<!-- Grid column -->
+			<div class="col-md-3 mb-md-0 mb-3">
+
+				<!-- Links -->
+				<h5 class="text-uppercase">Links</h5>
+
+				<ul class="list-unstyled">
+					<li><a href="https://thezeitgeistmovement.com">Global website</a></li>
+					<li><a href="https://www.youtube.com/user/TZMOfficialChannel">Global Youtube channel</a></li>
+					<li><a href="{{base}}/directory">Directory</a></li>					
+				</ul>
+
+			</div>
+
+			<!-- Grid column -->
+			<div class="col-md-3 mb-md-0 mb-3">
+
+				<!-- Links -->
+				<h5 class="text-uppercase">Community</h5>
+
+				<ul class="list-unstyled">
+                    <li><a href="https://news.tzm.community">Community news</a></li>
+                    <li><a href="https://tzm.community">Community information</a></li>
+				</ul>
+
+			</div>
+			<!-- Grid column -->
+
+		</div>
+		<!-- Grid row -->
+
+    <div class="row">
+    <!-- Copyright -->
+    <div class="col-md-12 footer-copyright text-center py-3"> 
+        The Zeitgeist Movement is licensed under a Creative Commons Attribution-ShareAlike 4.0 International License
+    </div>
+    <!-- Copyright -->
+    </div>
+	</div>
+	<!-- Footer Links -->
+
+
 
 {% endif %}

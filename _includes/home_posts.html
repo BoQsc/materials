@@ -17,7 +17,7 @@
         <div class="card mb-4 box-shadow h-md-250 post-teaser">
           {% if post.thumbnail %}
           <div class="thumbnail">
-             <img src="{{ base }}/{{ post.thumbnail }}">
+             <img class="lazyload" data-src="{{ base }}/{{ post.thumbnail }}">
           </div>
           {% endif %}
             <header class="posts_item_header">
@@ -33,6 +33,11 @@
 
               <div class="excerpt">
                   {{ post.excerpt }}
+                  
+                  {% if post.content.size > post.excerpt.size %}
+                    <a class="read_more" href="{{ base }}{{ post.url }}">{{ site.posts_readmore_text }} </a>
+                  {% endif %}
+
                 <!--{{ post.content | strip_html | truncate: "250" }}-->
                 <!--<a class="button" href="{{ post.url }}">
                   {{ site.theme_settings.str_continue_reading }}

@@ -9,6 +9,7 @@ jobs:
     environment:
       BUNDLE_PATH: ~/repo/vendor/bundle
       JEKYLL_ENV: "production"
+      NOKOGIRI_USE_SYSTEM_LIBRARIES: true
     steps:
       - checkout
       - restore_cache:
@@ -36,7 +37,7 @@ jobs:
           command: bash bundle.sh
       - run:
           name: Jekyll build
-          command: bundle exec jekyll build --trace
+          command: bundle exec jekyll build
       - persist_to_workspace:
           root: ./
           paths:
@@ -59,7 +60,7 @@ jobs:
           command: find | grep -v vendor
       - run:
           name: Upload
-          command: rsync -va --delete ~/repo/_site/ site_builder@tzm.community:/opt/sites/$( echo $CIRCLE_REPOSITORY_URL | sed -e "s/\./_/g" | sed -e "s/\// /g" | sed -e "s/_git//g" | gawk -S '{ print $2; }' )
+          command: rsync -va --delete ~/repo/_site/ site_builder@tzm.community:/opt/sites/$( echo $CIRCLE_REPOSITORY_URL | sed -e "s/\./_/g" | sed -e "s/\// /g" | sed -e "s/_git//g" | gawk -S '{ print $2; }' )$( echo $CIRCLE_BRANCH | sed -e "s/master//g" | sed -e "s/staging//g" )
       - run:
           name: Run IPFS
           command: ssh site_builder@tzm.community bash doipfs.sh
@@ -74,4 +75,6 @@ workflows:
             - build
           filters:
             branches:
-              only: master
+              only: 
+                - master
+                - /staging-.*/

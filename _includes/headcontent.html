@@ -6,40 +6,18 @@
     <!--Favicon-->
     <link rel="shortcut icon" href="{{ base }}/{{ site.theme_settings.favicon }}" type="image/x-icon">
 
+    {% if page.redirect %}
+    <meta http-equiv="refresh" content="0; url={{ page.redirect_url }}"> 
+    {% endif %}
+
     <!-- Canonical -->
     <link rel="canonical" href="{{ page.url | replace:'index.html','' }}">
 
     <!-- RSS -->
     <link rel="alternate" type="application/atom+xml" title="{{ site.title }}" href="{{ site.url }}/feed.xml"/>
 
-    <!-- Font Awesome -->
-    <!-- <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet"> -->
-    <link rel="stylesheet" type="text/css" href="{{ base }}/assets/vendor/css/font-awesome.min.css">
-
-    <!-- news widget style -->
-    {% if site.sidepanel_news %}
-    <link rel="stylesheet" type="text/css" href="{{ base }}/assets/css/tzm-news-widget-full.css">
-    {% endif %}
-    <!-- news widget style end -->
-    
-    <!-- style start -->    
-    {% if page.nostyle %}
-    {% else %}
-    <!-- Bootstrap 4 isolation CSS -->
-    <link rel="stylesheet" href="{{ base }}/assets/vendor/bootstrap/css/bootstrap.min.css" crossorigin="anonymous">
-    {% endif %}
-    <!-- style end -->    
-   
-   	<!-- CSS -->
-    <link rel="stylesheet" href="{{ base }}/assets/css/main.css">
- 
-    {% if site.google_fonts %}
-    <!-- Google Fonts {{ site.google_fonts }} -->
-    <link href="//fonts.googleapis.com/css?family={{ site.google_fonts }}" rel="stylesheet" type="text/css"> 
-	{% else %}
-    <link rel="stylesheet" href="{{ base }}/assets/css/{{ site.local_fonts }}.css">	
-    {% endif %}
-    
+    <link rel="stylesheet" type="text/css" href="{{ base }}/assets/bundled/dist.css">
+       
     {% if page.use_gallery %}
     {% endif %}
 

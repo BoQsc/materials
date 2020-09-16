@@ -48,6 +48,11 @@ var _tzm_news_widget = function () {
             render();
         });
     };
+    
+    const addZ = function (n) {
+    	return n<10? '0'+n:''+n;
+    };
+    
     const render = function (definedLocation) {
         if (definedLocation) {
             console.debug("Setting the location to ", definedLocation);
@@ -164,7 +169,7 @@ var _tzm_news_widget = function () {
     // e.g https://news.tzm.community/2019/11/07/news.html
     const returnDirectNewsLink = function (newsEntry) {
         let date = new Date(newsEntry.timestamp);
-        return `${baseNewsUrl}${date.getUTCFullYear()}/${date.getUTCMonth() + 1}/${date.getUTCDate()}/news.html`;
+        return `${baseNewsUrl}${date.getUTCFullYear()}/${addZ(date.getUTCMonth() + 1)}/${addZ(date.getUTCDate())}/news.html`;
     };
 
     /**

@@ -95,6 +95,9 @@ posts_three_col: false
 # maximum number of posts show on home page
 posts_max_home: 3
 
+# the text in "read more" links
+posts_readmore_text: Read more
+
 # if true, links to events will be shown in home page
 show_events_on_homepage: false
 
@@ -109,6 +112,12 @@ sidepanel_news: true
 
 # news widget url
 news_widget_url: "https://news.tzm.community/widget.html"
+
+# five transitions WORK IN PROGRESS
+show_five_transitions: false
+
+# world without money WORK IN PROGRESS
+show_world_without_money: false
 
 # are menu titles are clickable links or do they open a menu
 # false works better for mobile clients.
